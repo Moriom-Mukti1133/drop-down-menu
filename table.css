@@ -1,0 +1,116 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image:url("rain.jpg");
+	width:100%;
+	height:985px;
+}
+.menu-wrapper{
+	width:100%;
+	height:42px;
+	background:grey;
+}
+.menu{
+	width:100%;
+	margin-left:4px;
+	height:44px;
+}
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+border-left:2px solid #3399FF;
+border-right:2px solid #3399FF;
+height:40px;
+width:132px;
+background:green;
+line-height:40px;
+float:left;
+position:relative;
+}
+.menu ul li a{
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	display:block;
+}
+.menu ul li a:hover{
+	transition:1s;
+	background:#fff;
+	color:grey;
+}
+.menu ul li:last-child{
+	border-right:none;
+}
+.menu ul li:first-child{
+	border-left:none;
+}
+.menu ul ul{
+	display:none;
+	position:absolute;
+}
+.menu ul ul li a{
+	color:yellow;
+	background:red;
+}
+.menu ul li:hover>ul{
+	display:block;
+}
+.menu ul ul ul{
+	margin-left:132px;
+	top:0;
+}
+.menu ul ul ul li a{
+	color:#E1E5E4;
+	background:#9C9B63;
+}
+.menu ul ul ul ul li a{
+	color:#60576D;
+	background:#E197C6;
+}
+.menu ul ul ul ul ul li a{
+	color:#000000;
+	background:#836360;
+}
+.menu ul ul ul ul ul ul li a{
+	color:#E9E9E9;
+	background:#5A5C6B;
+}
+.menu ul ul ul ul ul ul ul li a{
+	color:#000000;
+	background:#836360;
+}
+.menu ul ul ul ul ul ul ul ul li a{
+	color:#60576D;
+	background:#E197C6;
+}
+.menu ul ul ul ul ul ul ul ul ul li a{
+	color:#E1E5E4;
+	background:#9C9B63;
+}
+.menu ul ul ul ul ul ul ul ul ul ul li a{
+	color:#E1E5E4;
+	background:red;
+}
+.menu ul ul ul ul ul ul ul{
+	margin-left:132px;
+	top: -163px;
+}
+.last{
+	overflow:none;
+	display:none;
+}
+.menu ul ul ul ul ul ul ul ul ul ul ul{
+	margin-left:-550px;
+	top: -10px;
+}
+.menu ul ul ul ul ul ul ul ul ul ul ul li a{
+	color:yellow;
+	padding:5px 20px 20px 5px;
+	font-size:25px;
+}
+.menu ul ul ul ul ul ul ul ul ul li:hover>ul{
+	display:block;
+}
